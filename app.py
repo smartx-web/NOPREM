@@ -391,7 +391,7 @@ def delete_account(data):
 
 def portal_header(title='Better Benue 2027',description='Polling units, agent assignments and field reports in one place.'):
     destination,label=('/', 'Back to dashboard') if title=='PU Results' else ('/results', 'Open PU Results')
-    return '<header class="portal-hero"><div class="hero-copy"><span class="hero-eyebrow">BENUE STATE / COORDINATION PORTAL</span><h1>'+esc(title)+'</h1><p class="hero-name">Fr Alia Hyacinth · Statewide coordination</p><p class="hero-description">'+esc(description)+'</p><a class="hero-action" href="'+destination+'">'+label+'</a></div><div class="hero-portrait branding-placeholder"><span>BETTER<br>BENUE<br><strong>2027</strong><small>Official portrait or logo to be supplied</small></span></div><span class="hero-watermark" aria-hidden="true">2027</span></header>'
+    return '<header class="portal-hero"><div class="hero-copy"><span class="hero-eyebrow">BENUE STATE / COORDINATION PORTAL</span><h1>'+esc(title)+'</h1><p class="hero-name">Rt Hon Herman Hembe · Statewide coordination</p><p class="hero-description">'+esc(description)+'</p><a class="hero-action" href="'+destination+'">'+label+'</a></div><div class="hero-portrait branding-placeholder"><span>BETTER<br>BENUE<br><strong>2027</strong><small>Official portrait or logo to be supplied</small></span></div><span class="hero-watermark" aria-hidden="true">2027</span></header>'
 
 
 def page(message='',extra='',filters=None):
